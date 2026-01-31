@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Téléchargements AbricoTweaks</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #121212; /* Très foncé, presque noir */
+      color: #eee;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      font-weight: 900;
+      margin-bottom: 0.3rem;
+      user-select: none;
+    }
+
+    h1 .orange {
+      color: #ff6700; /* Orange vif */
+    }
+
+    p.subtitle {
+      color: #bbb;
+      font-size: 1.2rem;
+      margin-bottom: 3rem;
+      user-select: none;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #ff6700;
+      color: #121212;
+      font-weight: 700;
+      font-size: 1.25rem;
+      padding: 15px 45px;
+      margin: 0 20px;
+      border-radius: 40px;
+      text-decoration: none;
+      box-shadow: 0 6px 10px rgba(255, 103, 0, 0.5);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+      user-select: none;
+    }
+
+    .btn:hover {
+      background: #ff8540;
+      box-shadow: 0 12px 20px rgba(255, 133, 64, 0.7);
+      transform: translateY(-3px);
+    }
+
+    .btn:active {
+      transform: translateY(0);
+      box-shadow: 0 6px 10px rgba(255, 103, 0, 0.5);
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      .btn {
+        margin: 10px 0;
+        width: 80%;
+        padding: 15px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Abricot<span class="orange">LeBG</span></h1>
+  <p class="subtitle">Choisis cque tu veux installer</p>
+
+  <a
+    class="btn"
+    href="https://github.com/rustdesk/rustdesk/releases/tag/1.4.5"
+    download
+    >RustDesk 1.4.5</a
+  >
+
+  <a
+    class="btn"
+    href="https://www.justgeek.fr/telecharger-iso-windows-11-23h2-135930/"
+    target="_blank"
+    rel="noopener noreferrer"
+    >Windows 11 23H2 ISO</a
+  >
+</body>
+</html>
